@@ -12,8 +12,11 @@ Promover a identificação precoce e tratamento das crianças com Transtorno do 
 
 ## Tecnologias Utilizadas no projeto
 Backend: Spring Boot (Java)
+
 Frontend: HTML, CSS, Bootstrap
+
 Banco de Dados: MySQL
+
 Gerenciador de Dependências: Maven
 
 
