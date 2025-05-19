@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title> Clínica RefloreSer</title>
+        <link rel="stylesheet" href="/estilo.css">
+    </head>
+<body>
+    <header>
+    <h1> Bem vindo(a) à Clínica RefloreSer </h1>
+    <p> Espaço transdisciplinar de desenvolvimento infantil</p>
+
+    <section class="services">
+        <strong>Atendimentos:</strong>
+        <span>Psicomotricidade</span>
+        <span>Terapia Ocupacional</span>
+        <span>Neuropsicologia</span>
+        <span>Neurofuncional</span>
+        <span>Fonoaudiologia</span>
+        <span>Psicopedagogia</span>
+        <span>Psicologia</span>
+        <span>Fisioterapia</span>
+        <span>Snoezelen</span>
+    </section>
+
+    <section class="siglas">
+        <strong>Métodos:</strong>
+        <dl>
+            <dt>PECS</dt>
+            <dd>Sistema de comunicação por troca de figuras</dd>
+            <dt>ABA</dt>
+            <dd>Análise do comportamento aplicada</dd>
+            <dt>VB</dt>
+            <dd>Verbal Behavior (comportamento verbal)</dd>
+            <dt>MAPP</dt>
+            <dd>Protocolo de avaliação para os pais</dd>
+            <dt>TEACH DENVER</dt>
+            <dd> Modelo de intervenção precoce para autismo</dd>
+            <dt>BOBATH</dt>
+            <dd> Terapia neuroevolutiva para reabilitação motora</dd>
+        </dl>
+    </section>
+
+    <section class="interventions">
+        <p><strong>Intervenção precoce naturalista</strong></p>
+        <p> Avaliação psicológica, avaliação clínica, plano terapêutico</p>
+    </section>
+</header>
+
+<!--Formulário de agendamento-->
+<form action="/agendar" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required />
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required />
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required />
+
+            <button type="submit">Agendar</button>
+        </form>
+
+</body>
+</html>
